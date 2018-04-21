@@ -1,7 +1,7 @@
  /* search bar for other employee names */
  #searchBar {
-  -fx-border-radius: 10px;
-  -fx-background-radius: 10px;
+  -fx-border-radius: 15px;
+  -fx-background-radius: 15px;
   -fx-border-color: #590059;
   -fx-background-color: #800080;
   -fx-font-color: white;
@@ -9,8 +9,8 @@
 
 /* btn to take photos?? */
 #photoBtn {
-  -fx-border-radius: 10px;
-  -fx-background-radius: 10px;
+  -fx-border-radius: 15px;
+  -fx-background-radius: 15px;
 /*  -fx-border-color: #590059;
   -fx-background-color: #800080;*/
 }
