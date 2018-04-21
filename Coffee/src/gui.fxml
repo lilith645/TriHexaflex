@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="bgPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="407.0" style="-fx-background-color: #8E44AD;" stylesheets="@guistyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.GuiController">
+   <children>
+      <Label id="label2" prefHeight="29.0" prefWidth="407.0" stylesheets="@guistyle.css" text="Brought to you by Tri-Hexa-Flexa">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="407.0">
+         <children>
+            <Button id="photoBtn" fx:id="photoBtn" layoutX="43.0" layoutY="147.0" mnemonicParsing="false" onAction="#takeSneakyShot" stylesheets="@guistyle.css" text="Take Photo" textFill="#590059" />
+            <TextField id="searchBar" layoutX="199.0" layoutY="147.0" promptText="Search Name" stylesheets="@guistyle.css" />
+            <AnchorPane />
+            <AnchorPane layoutX="33.0" layoutY="39.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#57005752" height="100.0" stroke="#590059" strokeType="INSIDE" width="106.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#570057c2" height="44.0" layoutX="35.0" layoutY="56.0" stroke="#570057" strokeType="INSIDE" width="35.0" />
+                  <Circle fill="#570057c3" layoutX="51.0" layoutY="40.0" radius="18.0" stroke="#570057" strokeType="INSIDE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="126.0" layoutY="171.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0">
+               <children>
+                  <Polygon fill="WHITE" layoutX="52.0" layoutY="83.0" scaleX="0.27" scaleY="0.25" scaleZ="0.25" stroke="#8e44ad" strokeType="INSIDE" strokeWidth="0.0">
+                     <points>
+                        <Double fx:value="-50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="0.0" />
+                        <Double fx:value="-60.0" />
+                     </points>
+                  </Polygon>
+                  <Polygon fill="WHITE" layoutX="67.0" layoutY="74.0" rotate="-60.0" scaleX="0.27" scaleY="0.25" scaleZ="0.25" stroke="#8e44ad" strokeType="INSIDE" strokeWidth="0.0">
+                     <points>
+                        <Double fx:value="-50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="0.0" />
+                        <Double fx:value="-60.0" />
+                     </points>
+                  </Polygon>
+                  <Polygon fill="WHITE" layoutX="52.0" layoutY="50.0" rotate="180.0" scaleX="0.27" scaleY="0.25" scaleZ="0.25" stroke="#8e44ad" strokeType="INSIDE" strokeWidth="0.0">
+                     <points>
+                        <Double fx:value="-50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="0.0" />
+                        <Double fx:value="-60.0" />
+                     </points>
+                  </Polygon>
+                  <Polygon fill="WHITE" layoutX="37.0" layoutY="74.0" rotate="59.0" scaleX="0.27" scaleY="0.25" scaleZ="0.25" stroke="#8e44ad" strokeType="INSIDE" strokeWidth="0.0">
+                     <points>
+                        <Double fx:value="-50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="0.0" />
+                        <Double fx:value="-60.0" />
+                     </points>
+                  </Polygon>
+                  <Polygon fill="WHITE" layoutX="37.0" layoutY="58.0" rotate="119.0" scaleX="0.27" scaleY="0.25" scaleZ="0.25" stroke="#8e44ad" strokeType="INSIDE" strokeWidth="0.0">
+                    <points>
+                      <Double fx:value="-50.0" />
+                      <Double fx:value="40.0" />
+                      <Double fx:value="50.0" />
+                      <Double fx:value="40.0" />
+                      <Double fx:value="0.0" />
+                      <Double fx:value="-60.0" />
+                    </points>
+                  </Polygon>
+                  <Polygon fill="WHITE" layoutX="67.0" layoutY="58.0" rotate="-118.0" scaleX="0.27" scaleY="0.25" scaleZ="0.25" stroke="#8e44ad" strokeType="INSIDE" strokeWidth="0.0">
+                     <points>
+                        <Double fx:value="-50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="50.0" />
+                        <Double fx:value="40.0" />
+                        <Double fx:value="0.0" />
+                        <Double fx:value="-60.0" />
+                     </points>
+                  </Polygon>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

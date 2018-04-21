@@ -1,0 +1,39 @@
+ /* search bar for other employee names */
+ #searchBar {
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-border-color: #590059;
+  -fx-background-color: #800080;
+  -fx-font-color: white;
+}
+
+/* btn to take photos?? */
+#photoBtn {
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+/*  -fx-border-color: #590059;
+  -fx-background-color: #800080;*/
+}
+
+/* background */
+#bgPane {
+	-fx-background-color: #8E44AD; 
+}
+
+#titleBar {
+	-fx-border-color: #590059;
+	-fx-background-color: #800080;
+}
+
+#label2 {
+	-fx-border-color: #590059;
+	-fx-background-color: #800080;
+}
+
+.label { 
+	-fx-text-fill: #ffffff; 
+} 
+
+.text-field {
+	-fx-text-fill: #ffffff; 
+}
